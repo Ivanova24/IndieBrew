@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 :root {
       // Color
-      --color-primary-landing: #B849FC; 
+      --color-primary-landing: #E2C5F4; 
       --color-primary-signUp: #C143FC; 
       --color-input-border: #BCBCBC; 
       --color-footer-text: #4F4F4F; 

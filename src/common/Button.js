@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+const Button = styled.button`
   background-color: var(--color-tertiary);
   font-size: var(--font-size-body);
   font-family: var(--font-body);
@@ -18,3 +18,5 @@ export const Button = styled.button`
     color: $color-black;
   }
 `;
+
+export default Button; 
