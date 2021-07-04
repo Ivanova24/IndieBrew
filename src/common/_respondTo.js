@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import { breakpoints } from './_variables';
+import { breakpoints } from './_breakpoints';
 
 export const respondTo = Object.keys(breakpoints).reduce(
   (accumulator, label) => {

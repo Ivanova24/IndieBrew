@@ -69,7 +69,12 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
+  color: var(--color-body-text);
   line-height: 27px;
 }
 `;
