@@ -10,24 +10,35 @@ export const MainSection = styled.section`
   ${respondTo.sm`
     padding-top: 80px;
     padding-bottom: 80px; 
+    row-gap: 64px;
+  `}
+
+  ${respondTo.md`
+    row-gap: 80px;
   `}
 `;
 
 export const Resources = styled.article`
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 32px;
 
-  ${respondTo.md`
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2.2rem; 
+  ${respondTo.sm`
+    flex-direction: row-reverse; 
+    column-gap: 8vw; 
     align-items: center;
+  `}
+`;
+
+export const Img = styled.div`
+  ${respondTo.md`
+    max-width: 30vw;
   `}
 `;
 
 export const Article = styled.article`
   display: grid;
   row-gap: 8px;
-  
 
   h2 {
     font-size: var(--font-size-subtitle);
@@ -37,5 +48,5 @@ export const Article = styled.article`
   a {
     font-weight: 700;
   }
-`;
 
+`;

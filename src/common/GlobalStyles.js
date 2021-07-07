@@ -26,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
       --font-size-body: 1.8rem; 
 
       // wrapper
-      --wrapper: clamp(2rem, 7.2vw, 15rem);  
+      --wrapper: max(2rem, 17.4vw - 20rem / 2);  
 }
 
 html {
