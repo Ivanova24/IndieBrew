@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { respondTo } from "../../common/_respondTo";
-// import { contentSection } from "./Main";
 
-export const MainSection = styled.section`
+export const MainSection = styled.main`
   padding: 21px var(--wrapper) 80px;
   display: grid;
   row-gap: 59px;
@@ -24,13 +23,22 @@ export const Resources = styled.article`
   row-gap: 32px;
 
   ${respondTo.sm`
-    flex-direction: row-reverse; 
+    flex-direction: ${({row}) => (row ? "row-reverse" : "row")};
     column-gap: 8vw; 
     align-items: center;
   `}
 `;
 
 export const Img = styled.div`
+${respondTo.xs`
+    max-width: 60%;
+    margin: 0 auto;
+  `}
+
+  ${respondTo.sm`
+    max-width: 40vw;
+  `}
+
   ${respondTo.md`
     max-width: 30vw;
   `}
