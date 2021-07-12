@@ -77,6 +77,11 @@ p {
   color: var(--color-body-text);
   line-height: 27px;
 }
+
+h3 {
+  font-family: var(--font-footer); 
+  font-size: var(--font-size-footer);
+}
 `;
 
 export default GlobalStyles;
