@@ -1,7 +1,7 @@
 
-IndieBrew
+<h1>IndieBrew</h1>
 
-With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, IndieHackers, and much more.
+<p>Con IndieBrew, obtenga fuentes personales de recursos en toda la web, incluidos Reddit, HackerNews, IndieHackers y mucho más. Con aplicaciones nativas para iOS y Android, acceder a su contenido seleccionado nunca ha sido tan fácil.</p>
 
 
 # Getting Started with Create React App
